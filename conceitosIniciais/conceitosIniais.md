@@ -1,9 +1,15 @@
 # Conceitos Iniciais
 
 
-*DAC*: Esse “Distribuidor Automático de Chamadas” permite definir como as chamadas serão distribuídas para os colaboradores, em tempo real. Assim, seleciona um usuário livre para direcional as ligações por ordem de chegada.
+*DAC Distribuidor Automático de Chamadas*: Esse “Distribuidor Automático de Chamadas” permite definir como as chamadas serão distribuídas para os colaboradores, em tempo real. Assim, seleciona um usuário livre para direcional as ligações por ordem de chegada.Também conhecido como ACD. Um sistema que executa quatro funções básicas: atender chamadas recebidas, obter informações e instruções de um banco de dados, determinar a melhor forma de atender a chamada e enviar a chamada ao agente adequado assim que houver um disponível. Em sua versão de software, também conhecida como Distribuição Automática de Chamadas.
+
+**Definição - O que significa o Automatic Call Distributor (ACD)?**
+Um distribuidor automático de chamadas (ACD) na telefonia é um sistema que distribui as chamadas recebidas para um grupo específico de terminais usados ​​pelos agentes. Faz parte de um sistema de integração de telefonia por computador (CTI). Os ACDs reconhecem, atendem e encaminham as chamadas recebidas. Eles variam de pequenos sistemas mantendo algumas linhas até sistemas mantendo um grande número de linhas para grandes aplicações. 
+
 
  *VDN* do inglês Vector Directory Number, é um ramal virtual (não-físico) utilizado para o roteamento das chamadas. Toda chamada proveniente do PABX está associada a um VDN que, por sua vez, está sempre associado a um vetor. O VDN funciona como referência na vetorização
+
+ *(DNIS)Serviço de Identificação de Número Discado*Também conhecido como DNIS. Um recurso de 800 ou 900 linhas que identifica o número de telefone que o chamador discou para alcançar o sistema de telefonia por computador conectado.
 
 **O que é REST?**
  Um estilo arquitetônico que define um conjunto de recomendações para o design de aplicações que usam o protocolo HTTP para transmissão de dados.  
@@ -26,4 +32,5 @@ Simplificando, o REST acessa os dados enquanto o SOAP executa operações por me
 •	As maneiras pelas quais as duas APIs expõem as lógicas de negócios também são diferentes. REST aproveita a exposição da URL como @path (“/ WeatherService”), enquanto o uso da API SOAP de interfaces de serviços como @WebService;
 •	REST usa a linguagem de descrição de aplicações da Web e SOAP usa a linguagem de descrição de serviços da Web para descrever as funcionalidades oferecidas pelos serviços da web;
 •	REST é compatível com JavaScript e também pode ser implementado facilmente. Já SOAP também é conveniente com JavaScript, mas não suporta uma implementação maior. 
+
 
