@@ -1,6 +1,12 @@
 # O que é um aplicativo de roteamento? Quais são os elementos básicos?
 O roteamento fornece instruções sobre como lidar e para onde direcionar as interações em diferentes circunstâncias.  Conceitualmente, um aplicativo de roteamento é como uma série de instruções priorizadas que levam em consideração vários fatores para determinar o destino de roteamento ideal e o que fazer a seguir se essa ação não for possível dentro das restrições especificadas.
 
+Os aplicativos de roteamento são compostos de vários elementos diferentes, descritos aqui em um nível conceitual:
+
+Os dados podem vir de várias fontes e podem incluir dados de clientes, contextuais, operacionais ou analíticos. Dados anexados, que estão incluídos nas mensagens de chamada como pares de valores-chave (KVPs), são o que você sabe sobre uma interação específica. Os dados anexados podem ser adicionados e atualizados ao longo da vida da interação (por exemplo, à medida que uma chamada flui pelo IVR, roteamento, desktop do agente e relatórios).
+Habilidades são o que você sabe sobre um agente. Para identificar o melhor recurso disponível para lidar com uma interação específica, o roteamento procura as combinações desejadas de habilidades no nível individual (por agente), no nível da equipe (por grupo de habilidades ou fila') ou em um pool virtual de recursos ( fila virtual').
+
+
 ## Quais são alguns dos tipos mais comuns de roteamento?
 
 <html>
@@ -43,3 +49,32 @@ Correio de voz | Encaminhamento de chamadas de entrada para correio de voz (por 
 </body>
 </html>
 
+## Genesys Routing Features
+
+<img src="https://user-images.githubusercontent.com/52088444/151793188-aa551d27-559b-428c-a607-c4094d79adec.png" width="90%"></img> 
+
+
+
+## Roteamento baseado em data e hora
+<img src="https://user-images.githubusercontent.com/52088444/151793623-3b661bfe-3197-46ff-92e8-b57479565c58.png" width="90%"></img> 
+
+## Roteamento baseado em Skills
+
+<img src="https://user-images.githubusercontent.com/52088444/151793831-f220d9ef-9e69-4332-a83c-01d452129c07.png" width="90%"></img> 
+
+
+## Threshold function
+
+
+<img src="https://user-images.githubusercontent.com/52088444/151794602-bed14336-6812-4ead-9a0d-c204d3a2b1d6.png" width="90%"></img> 
+
+
+
+<img src="https://user-images.githubusercontent.com/52088444/151794745-8314103a-bdd6-4e07-ac1f-bcaea2ba0a6e.png" width="90%"></img> 
+
+**Obs: file lookup, config lookup, db lookup (pesquisa de arquivo, pesquisa de configuração,
+pesquisa de banco de dados)
+
+<img src="https://user-images.githubusercontent.com/52088444/151795268-ea2b72a9-7747-4cb7-8892-138bc69de69c.png" width="90%"></img> 
+
+https://www.youtube.com/watch?v=R_7dr8GfZFo&t=16s
